@@ -1,14 +1,15 @@
 //Designed by cubemanlol_
+
 #include<iostream>
-#include<algorithm>
-#define ll long long
+
 using namespace std;
+
 int main() {
-    ll n, m, k, ans = 0;
+    long long n, m, k, ans = 0;
     cin >> n >> m >> k;
-    ll a[n][2], b[m];
+    long long a[n][2], b[m];
     for (int i = 0; i < n; i++) {
-        ll otn;
+        long long otn;
         cin >> otn;
         a[i][0] = otn - k;
         a[i][1] = otn + k;
